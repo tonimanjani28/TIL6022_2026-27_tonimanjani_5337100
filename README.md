@@ -6,7 +6,7 @@
 
 ## Project overview
 
-This project investigates patterns in observed air traffic activity during 2025 using the **Open Performance Data Initiative (OPDI) Flight List**, developed by EUROCONTROL's Performance Review Commission in collaboration with the OpenSky Network. It combines data preparation, descriptive analysis and an interactive **Streamlit dashboard**.
+This project investigates patterns in observed air traffic activity during 2025 using the Open Performance Data Initiative (OPDI) Flight List**, developed by EUROCONTROL's Performance Review Commission in collaboration with the OpenSky Network. It combines data preparation, descriptive analysis and an interactive Streamlit dashboard.
 
 The research explores how flight list records are distributed over time, among airlines/operators and aircraft types, and across airports and directional routes. The dashboard makes it possible to explore these patterns using interactive filters, charts, tables and a map of airport connections.
 
@@ -82,9 +82,9 @@ Using a virtual environment helps keep the project's dependencies separate from 
 ## 3. Add the processed datasets
 
 
-The repository also includes flight_data_preprocessing_and_route_pairs.ipynb. This notebook is retained as a backup and standalone data-preparation option. It can be run before opening the research report notebook: it processes the original monthly flight data and generates the Parquet datasets used by the Streamlit dashboard.
+The repository also includes flight_data_preprocessing_and_route_pairs.ipynb. This notebook is retained as a backup and standalone data preparation option. It can be run before opening the research report notebook: it processes the original monthly flight data and generates the Parquet datasets used by the Streamlit dashboard.
 
-The same data-preparation process and outputs are also incorporated into the research report notebook, so the original notebook is not an additional requirement if you choose to run the preparation from the report instead. Keeping it in the repository provides a separate, runnable copy of the preparation work and makes it easier to reproduce the dashboard data independently.
+The same data preparation process and outputs are also incorporated into the research report notebook, so the original notebook is not an additional requirement if you choose to run the preparation from the report instead. Keeping it in the repository provides a separate, runnable copy of the preparation work and makes it easier to reproduce the dashboard data independently.
 
 
 **The dashboard cannot display its analyses without the prepared data files.** Create a folder named `processed_data` beside `app.py` and place these four files inside it:
